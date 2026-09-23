@@ -15,7 +15,6 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { RootStackParamList } from "./src/navigation/types";
 
 // Tela inicial
 import HomeScreen from "./src/screens/HomeScreen";
@@ -33,6 +32,7 @@ import LoginMedicoScreen from "./src/screens/medico/LoginMedicoScreen";
 import CadastroMedicoScreen from "./src/screens/medico/CadastroMedicoScreen";
 import PerfilMedicoScreen from "./src/screens/medico/PerfilMedicoScreen";
 import ConsultasMedicoScreen from "./src/screens/medico/ConsultasMedicoScreen";
+import { RootStackParamList } from "./src/navigations/types";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
